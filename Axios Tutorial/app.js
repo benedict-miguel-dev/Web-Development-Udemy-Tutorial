@@ -60,6 +60,7 @@ btnAddJoke.addEventListener('click', async () => {
     jokes.append(newJoke)
 })
 
+// This is for testing purposes
 
 
 
