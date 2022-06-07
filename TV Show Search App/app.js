@@ -30,7 +30,7 @@ btnSearch.addEventListener('click', async () => {
         }
         list.append(newImg)
     }
-   
+    
 })
 
 
