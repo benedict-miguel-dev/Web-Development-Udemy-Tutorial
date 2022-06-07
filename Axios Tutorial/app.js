@@ -14,7 +14,7 @@
     Create an asynction function
         const myFunction = async () => {
             try {
-
+                await axios.get(API)
             }catch (e){
 
             }
