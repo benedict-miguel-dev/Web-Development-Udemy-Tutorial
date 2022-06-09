@@ -11,3 +11,5 @@ Installing all denpendencies from a project, assuming there is a package.json
 and package-lock.json from the zip
 
     nmp install
+
+/* This message is just for the commit */
