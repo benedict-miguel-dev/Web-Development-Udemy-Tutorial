@@ -1,0 +1,13 @@
+Importing Packages, import with a variable name and use using variable
+
+    const packageName = require(packageName)
+
+Can also be imported using 
+    
+    import { getRandomDadJoke } from 'give-me-a-joke';
+    import colors from 'colors';
+
+Installing all denpendencies from a project, assuming there is a package.json 
+and package-lock.json from the zip
+
+    nmp install
