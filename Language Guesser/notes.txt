@@ -1,0 +1,14 @@
+Errors Encountered
+    
+    Error:
+
+        SyntaxError: Cannot use import statement outside a module
+    
+    Solution:
+
+        Added to package.json
+            "type": "module",
+
+Notes
+
+    Instead of using require, using imports instead
