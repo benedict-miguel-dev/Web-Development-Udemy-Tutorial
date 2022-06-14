@@ -2,10 +2,60 @@ Importing Packages, import with a variable name and use using variable
 
     const packageName = require(packageName)
 
-Can also be imported using 
+Can also be imported using, this version of using other packages is by ES6 import
     
     import { getRandomDadJoke } from 'give-me-a-joke';
     import colors from 'colors';
+
+Import vs Require  
+
+        Import
+            - must be placed in the beginning of the js file
+            - Used by browsers
+            - uses .mjs, which is a module
+            - Runs at the beginning of the file
+            
+            Exporting a package
+
+                At the beginning of js file
+                    export default className
+                    export functionName
+
+                or 
+
+                At the end of the js file
+                    export default className
+                    export default {functionName}
+
+            Importing a module
+                
+                import className, {functionName} from 'jsName.js'
+
+                HTML file must contain <script src="index.js" type ="module"> <script>
+
+        Require
+            - Can be used in conditional statements
+            - Used by Node by default
+            - Uses commonJS
+
+            Exporting a Package
+                At the end of the js file
+
+                    module.exports = {
+                        functionName,
+                        anotherFunctionName
+                    }
+
+                or
+
+                Beginning of each function
+
+                    exports.functionName
+                    exports.AnotherFunctionName
+
+
+
+        
 
 Installing all denpendencies from a project, assuming there is a package.json 
 and package-lock.json from the zip
