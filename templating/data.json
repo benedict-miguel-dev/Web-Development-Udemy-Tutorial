@@ -1,0 +1,59 @@
+{
+    "soccer":{
+        "name": "Soccer",
+        "subscribers": 1000000,
+        "description": "The football subreddit",
+        "posts": [
+            {
+                "title":"Soccer Post 1",
+                "author":"Author 1"
+            },
+            {
+                "title":"Soccer Post 2",
+                "author":"Author 2"
+            },
+            {
+                "title":"Soccer Post 3",
+                "author":"Author 3"
+            }
+        ]
+    },
+    "chickens":{
+        "name": "Chickens",
+        "subscribers": 1000000,
+        "description": "The chicken subreddit",
+        "posts": [
+            {
+                "title":"chicken Post 1",
+                "author":"Author 1"
+            },
+            {
+                "title":"chicken Post 2",
+                "author":"Author 2"
+            },
+            {
+                "title":"chicken Post 3",
+                "author":"Author 3"
+            }
+        ]
+    },
+    "mightyHarvest":{
+        "name": "Mighty Harvest",
+        "subscribers": 1000000,
+        "description": "The mightyHarvest subreddit",
+        "posts": [
+            {
+                "title":"mightyHarvest Post 1",
+                "author":"Author 1"
+            },
+            {
+                "title":"mightyHarvest Post 2",
+                "author":"Author 2"
+            },
+            {
+                "title":"mightyHarvest Post 3",
+                "author":"Author 3"
+            }
+        ]
+    }
+}
