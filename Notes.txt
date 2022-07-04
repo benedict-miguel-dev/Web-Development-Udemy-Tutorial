@@ -1,4 +1,4 @@
-Setting up exress
+Setting up express
 
     1.  To setup up a basic express server:
             const express = require('express');
@@ -14,7 +14,7 @@ Setting up exress
 
         app.set('view engine', 'ejs')
 
-    3. Setting up the views and static files
+    3. Setting up the views, static files, and handle url data
 
         Create a folder named 'views' and make sure it is connected to the server properly
 
@@ -24,6 +24,11 @@ Setting up exress
 
             app.use(express.static('public'))
             app.set('public', path,join(__dirname,('/public'))
+
+        Setting the server to be able to handle urlencoded data 
+        
+            app.use(express.urlencoded({extended: true}))
+            app.use(express.json())
 
     4. Add an undefined path 
 
